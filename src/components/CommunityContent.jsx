@@ -2,7 +2,8 @@ import React from 'react'
 
 const CommunityContent = () => {
   return (
-    <div>CommunityContent</div>
+    <div className='community_content'>
+      CommunityContent</div>
   )
 }
 
