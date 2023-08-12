@@ -1,27 +1,42 @@
 .app{
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 :root{
     --content-width: 600px;
     --community-width: 310px;
     --left-sidebar-width: 310px;
     --max-height:calc(100vh - 60px);
+    --primary:#f45046;
 }
 
 .main{
-  margin-top: 20px;
-  margin: 20px 10px;
+  margin: 0px;
   display: grid;
   grid-template-columns: var(--left-sidebar-width) auto ;
-  align-items: center;
+  position: sticky;
+  top: 0;
 }
-.card {
-  padding: 2em;
+
+.sidebar{
+  display: none;
+  padding: 60px 15px 0;
+  width: 100%;
+  position: sticky;
+  overflow-y: auto;
+  top: 0;
+  scroll-behavior: smooth;
 }
 
 .community{
   display: flex;
   gap: 30px;
+  overflow-y: hidden;
+
 }
 .community_content{
   max-width: var(--content-width);
@@ -33,6 +48,7 @@
 }
 
 .community_sidebar{
+  display: none;
   max-width: var(--community-width);
   max-height: var(--max-height);
   overflow-y: auto;
@@ -74,3 +90,17 @@ h4{
 }
 
 
+@media (min-width:1025px) {
+  .community_sidebar{
+    display: block;
+  }
+}
+
+@media (min-width: 961px) {
+  .sidebar{
+    display: block;
+  }
+  .app{
+    margin: 0;
+  }
+}

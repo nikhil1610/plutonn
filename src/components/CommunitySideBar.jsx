@@ -1,17 +1,18 @@
-import React from 'react'
-
+import { AiOutlinePlus } from 'react-icons/ai';
 import { communities } from '../constants';
 
 
 const CommunitySideBar = () => {
   return (
-    <div className='community_sidebar'>
-      <div className='search'>
+    <article className='community_sidebar'>
+      <div>
+        <div className='search'>
         <input type='text' placeholder='Search Joined Community' style={{ border:'none',outline:'none'}}/>
         <button></button>
+        </div>
+        <h3 style={{ color:'#000', fontWeight:'550', fontSize:'16.5px'}}>Popular Communities</h3>
       </div>
-      <h3 style={{ color:'#000', fontWeight:'550', fontSize:'16.5px'}}>Popular Communities</h3>
-      <ul style={{ padding:'0px'}}>
+      <ul style={{ padding:'0px',display:'flex',gap:'10px',flexDirection:'column'}}>
         {communities.map((community, index) =>(
           <li>
             <a style={{ display:'flex', gap:'5px'}}>
@@ -21,13 +22,14 @@ const CommunitySideBar = () => {
                 <h3>{community.members} members</h3>
               </div>
             </a>
-            <button>
-
+            <button className='community_join'>
+              <AiOutlinePlus color={'#f45046'}/> 
+              Join
             </button>
           </li>
         ))}
       </ul>
-    </div>
+    </article>
   )
 }
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import '../styles/navbar.css';
+import '../styles/topbar.css';
 import user_avatar from '../assets/user_avatar.png';
 import plutonn_logo from '../assets/plutonn_logo.png'
-const Navbar = () => {
+const Topbar = () => {
   return (
     <header className='navbar'>
-      <div className='logo' style={{display:'flex'}}>
+      <div className='logo' style={{display:'flex',alignItems:'center',gap:'2px'}}>
        <img src={plutonn_logo} alt='plutonn_logo'/>
        <p>Plutonn</p>
       </div>
@@ -17,4 +17,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Topbar
