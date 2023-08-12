@@ -12,7 +12,7 @@ const CommunitySideBar = () => {
         </div>
         <h3 style={{ color:'#000', fontWeight:'550', fontSize:'16.5px'}}>Popular Communities</h3>
       </div>
-      <ul style={{ padding:'0px',display:'flex',gap:'10px',flexDirection:'column'}}>
+      <ul className='community_list' style={{ padding:'0px',display:'flex',gap:'10px',flexDirection:'column'}}>
         {communities.map((community, index) =>(
           <li>
             <a style={{ display:'flex', gap:'5px'}}>

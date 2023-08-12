@@ -9,8 +9,10 @@
 :root{
     --content-width: 600px;
     --community-width: 310px;
-    --left-sidebar-width: 310px;
-    --max-height:calc(100vh - 60px);
+    --left-sidebar-width: 280px;
+    --max-height:calc(100vh - 130px);
+    --community-header:201px;
+    --search-header:100px;
     --primary:#f45046;
 }
 
@@ -18,25 +20,41 @@
   margin: 0px;
   display: grid;
   grid-template-columns: var(--left-sidebar-width) auto ;
+  /* position: sticky;
+  top: 0; */
+}
+
+.navbar{
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
+
+.community_topbar{
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
 
 .sidebar{
   display: none;
   padding: 60px 15px 0;
-  width: 100%;
+  max-height: var(--max-height);
+  width: 92%;
   position: sticky;
   overflow-y: auto;
   top: 0;
-  scroll-behavior: smooth;
+}
+.sidebar::-webkit-scrollbar{
+  display: none;
 }
 
 .community{
   display: flex;
   gap: 30px;
   overflow-y: hidden;
-
+  width: 100%;
 }
 .community_content{
   max-width: var(--content-width);
@@ -57,6 +75,18 @@
   top: 0;
   width: 100%;
 }
+.community_list{
+  max-height: calc(var(--max-height) - var(--search-header))!important;
+}
+
+.community_posts{
+  max-height: calc(var(--max-height) - var(--community-header));
+  overflow-y: auto;
+}
+
+.community_posts::-webkit-scrollbar{
+  display: none;
+}
 
 .search{
   border-radius: 10px;
@@ -66,6 +96,35 @@
   border: 1px solid rgba(30,30,30,.25);
   width: 90%;
   margin-bottom: 10px;
+}
+
+.follow_card{
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 15px;
+    margin: 18px 0;
+    overflow: hidden;
+    padding: 15px 0 20px 20px;
+    width: 92%;
+}
+.follow_card li{
+    grid-gap: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr auto;
+    width: 100%;
+}
+.follow_card h4{
+  white-space: pre-wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-height: 21px;
 }
 li{
   grid-gap: 10px;

@@ -1,4 +1,3 @@
-import React from 'react'
 import { ProfileCard, NavCard, FollowCard } from '../components'
 const Leftbar = () => {
   return (
