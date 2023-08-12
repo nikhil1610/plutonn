@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-import Navbar from './components/Navbar';
+import Topbar from './components/Topbar';
 import LeftBar from './components/LeftBar';
 import RightBar from './components/CommunitySideBar';
 import { CommunityContent, CommunitySideBar } from './components';
@@ -12,9 +12,11 @@ function App() {
   return (
     <>
     <div className='app'>
-      <Navbar/>
+      <Topbar/>
       <main className='main'>
-        <LeftBar/>
+        <aside className='sidebar'>
+          <LeftBar/>
+        </aside>
         <section className='community'>
           <CommunityContent/>
           <CommunitySideBar/>

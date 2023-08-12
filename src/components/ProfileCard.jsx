@@ -5,7 +5,8 @@ const ProfileCard = () => {
     <section className='profileCard'>
       <img/>
       <div>
-      You Haven't Logged In take your username now
+        <h2>You Haven't Logged In </h2>
+        <h3>take your username now</h3>
       <p>
       Click the login button and make yourself
        a part of this wonderful community.

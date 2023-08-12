@@ -1,0 +1,28 @@
+
+.community_header{
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 5px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.header_display{
+    display: grid;
+    grid-template-columns: 70px auto;
+    align-items: center;
+}
+
+.community_join{
+    display:flex;
+    gap:5px;
+    align-items:center;
+    border-radius: 12px;
+    padding: 0px 7px;
+}
