@@ -72,6 +72,7 @@ const communities = [
                 date_posted:"5 July'23",
                 description:`
                 🌟 Welcome to the DSA community! 🤝📚💻
+                
                 We're here to learn, grow, and conquer coding challenges together.
                 
                 Ask questions, explore resources, and connect with like-minded individuals. 
