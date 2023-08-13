@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/topbar.css';
 import user_avatar from '../assets/user_avatar.png';
-import plutonn_logo from '../assets/plutonn_logo.png'
+import plutonn_logo from '/plutonn_logo.png'
 const Topbar = () => {
   return (
     <header className='navbar'>

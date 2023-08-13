@@ -3,8 +3,8 @@ import './App.css'
 
 import Topbar from './components/Topbar';
 import LeftBar from './components/LeftBar';
-import RightBar from './components/CommunitySideBar';
 import { CommunityContent, CommunitySideBar } from './components';
+import MobileNav from './components/MobileNav';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +22,7 @@ function App() {
           <CommunitySideBar/>
         </section>
         </main>
+        <MobileNav/>
     </div>
     </>
   )

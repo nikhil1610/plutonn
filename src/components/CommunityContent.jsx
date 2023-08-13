@@ -31,8 +31,8 @@ const CommunityPosts = ({posts}) =>{
              <a style={{ display:'flex', gap:'5px'}}>
                <img src={post.author.user_img}/>
                <div style={{ display: 'flex', flexDirection:'column'}}>
-                 <h4>{post.author.username}</h4>
-                 <h3>{post.author.name}</h3>
+                 <h3>{post.author.username}</h3>
+                 <h4>{post.author.name}</h4>
                </div>
              </a>
              <button className='community_join'>
