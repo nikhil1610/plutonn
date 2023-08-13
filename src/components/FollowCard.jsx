@@ -6,11 +6,11 @@ const FollowCard = () => {
   return (
     <section className="follow_card">
       {follow_people.map((user,index) => (
-        <li>
+        <li className="follow_people_item">
           <a style={{ display:'flex', gap:'5px'}}>
             <img src={user.user_img} alt={`${user.name}_img`}/>
-            <div style={{ display: 'flex', flexDirection:'column'}}>
-              <span style={{ lineHeight:'14px',whiteSpace:'pre-wrap'}}>
+            <div className="follow_people_name" style={{ display: 'flex', flexDirection:'column'}}>
+              <span style={{ lineHeight:'14px'}}>
                 @
                 {user.username}
                 .

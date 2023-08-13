@@ -1,5 +1,6 @@
 import { AiFillHome, AiOutlineSearch } from "react-icons/ai";
 import { BiSolidVideos } from "react-icons/bi";
+import {HiUserGroup} from "react-icons/hi";
 import '../styles/navbar.css';
 
 
@@ -12,7 +13,7 @@ const NavCard = () => {
           <h2>Home</h2>
         </li>
         <li className="navbar_item">
-          <AiFillHome/>
+          <HiUserGroup/>
           <h2>Community</h2>
         </li>
         <li className="navbar_item">
