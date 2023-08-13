@@ -1,5 +1,6 @@
 import { AiOutlinePlus } from 'react-icons/ai';
 import { communities } from '../constants';
+import { FaSearch } from 'react-icons/fa';
 
 
 const CommunitySideBar = () => {
@@ -8,7 +9,7 @@ const CommunitySideBar = () => {
       <div>
         <div className='search'>
         <input type='text' placeholder='Search Joined Community' style={{ border:'none',outline:'none'}}/>
-        <button></button>
+        <i><FaSearch/></i>
         </div>
         <h3 style={{ color:'#000', fontWeight:'550', fontSize:'16.5px'}}>Popular Communities</h3>
       </div>
