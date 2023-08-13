@@ -10,7 +10,7 @@
 }
 .profile{
     display: grid;
-    grid-template-columns: auto 50px;
+    grid-template-columns: auto 100px;
     align-items: center;
 }
 
