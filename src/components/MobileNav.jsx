@@ -1,5 +1,6 @@
 import { AiFillHome, AiOutlineSearch } from "react-icons/ai";
 import { BiSolidVideos } from "react-icons/bi";
+import { HiUserGroup } from "react-icons/hi";
 import '../styles/mobile_nav.css';
 import user_avatar from '../assets/user_avatar.png';
 
@@ -13,7 +14,7 @@ const MobileNav = () => {
             <h2>Home</h2>
           </li>
             <li className="mobile_navbar_item">
-            <AiFillHome/>
+            <HiUserGroup/>
             <h2>Community</h2>
             </li>
             <li className="mobile_navbar_item">

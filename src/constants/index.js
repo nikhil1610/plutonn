@@ -128,47 +128,47 @@ const follow_people = [
     {
         username:'cipherschool',
         name:'Cipher School',
-        user_img:'',
+        user_img:'https://d3gmywgj71m21w.cloudfront.net/afbe5cca6cc698f5e677a961ce7ae47f',
     },
     {
         username:'anurag',
         name:'Anurag Mishra',
-        user_img:'',
+        user_img:'https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg',
     },
     {
         username:'geetikasharma968',
         name:'Geetika Sharma',
-        user_img:'',
+        user_img:'https://lh3.googleusercontent.com/a/AAcHTtfzV8huTup0Pt5mOh_hPRZcXuLQn9jWJZbIFlhSuvRAZvay=s96-c',
     },
     {
-        username:'preetikatiyar',
+        username:'preetikatiyar9',
         name:'Preeti Katiya',
-        user_img:'',
+        user_img:'https://lh3.googleusercontent.com/a-/AOh14GgBsMQdeq56rYlPzOLxXPYb3BUSbbWsB2ryV1X8Aw=s96-c',
     },
     {
         username:'sanskardrolia',
         name:'Sanskar',
-        user_img:'',
+        user_img:'https://d3gmywgj71m21w.cloudfront.net/5b58efae5c105533c059a1dac3b676c6',
     },
     {
         username:'i_m_nitesh9',
         name:'Nitesh Kumar',
-        user_img:'',
+        user_img:'https://d3gmywgj71m21w.cloudfront.net/6246d136788ca0e1226cb06335fb77bd.jpg',
     },
     {
         username:'aradhya',
         name:'Aradhya',
-        user_img:'',
+        user_img:'https://d3gmywgj71m21w.cloudfront.net/0cc640531f8ca4fd20bb65c265686d8a.jpg',
     },
     {
         username:'nehakhichi',
         name:'Neha Khichi',
-        user_img:'',
+        user_img:'https://d3gmywgj71m21w.cloudfront.net/a78517da69af174c99161aa633a39234.jfif',
     },
     {
         username:'pushp',
         name:'Pushp Raj',
-        user_img:'',
+        user_img:'https://d3gmywgj71m21w.cloudfront.net/075512431dcb643baadfa2ab459c1b45.jpeg',
     }
 
 ];

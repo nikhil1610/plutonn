@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Topbar from './components/Topbar';
-import LeftBar from './components/LeftBar';
+import LeftBar from './components/Leftbar';
 import { CommunityContent, CommunitySideBar } from './components';
 import MobileNav from './components/MobileNav';
 
