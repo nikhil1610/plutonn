@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# React + Vite
+[Plutonn](https://www.plutonn.com/community/posts?cid=647f941ba0966bd861fafc30) clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# plutonn
->>>>>>> 99419d6a46f9e864c5715ce1b29f886a03b7697b
+Head over to [here](https://plutonn-clone-nikhil.vercel.app) to see the cloned version.
